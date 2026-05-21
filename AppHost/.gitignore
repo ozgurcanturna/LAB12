@@ -1,0 +1,106 @@
+## .NET / C# Build Outputs
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+.nuget/
+
+## Visual Studio
+.vs/
+*.vspscc
+*.vssscc
+*.vsp
+*.vsd
+*.vscontent
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## MSBuild
+msbuildtemp/
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Logs
+*.log
+logs/
+
+## Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+## OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## .NET Aspire
+.aspire/
+aspire.config.local.json
+
+## App Settings with Secrets
+appsettings.local.json
+appsettings.*.local.json
+secrets.json
+
+## Entity Framework Migrations (eğer geçici migration dosyaları varsa)
+# Migrations/
+
+## Docker
+.dockerignore
+docker-compose.override.yml
+
+## dotnet user secrets
+%APPDATA%\microsoft\UserSecrets\
+
+## Node / Frontend (varsa)
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnp/
+.pnp.js
+
+## Publish Profiles
+**/Properties/PublishProfiles/
+
+## Certificates / Keys
+*.pfx
+*.pem
+*.key
+*.cer
+
+## ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
