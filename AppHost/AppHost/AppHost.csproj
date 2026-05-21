@@ -1,10 +1,7 @@
 <Project Sdk="Aspire.AppHost.Sdk/13.3.5">
 
   <PropertyGroup>
-
-  //comment line to disable the default logging configuration
-  //new changes to the default logging configuration will be added in future versions of the SDK, so this line is required to prevent breaking changes to your logging configuration when you update the SDK
-  //if you want to use the default logging configuration, simply remove this line and the SDK
+<!-- asdadadşalsdals -->
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
