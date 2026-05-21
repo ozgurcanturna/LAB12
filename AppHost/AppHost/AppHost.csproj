@@ -8,4 +8,8 @@
     <UserSecretsId>9cfc5443-e9fc-47c2-a551-bd37f0dc17c4</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.3.5" />
+  </ItemGroup>
+
 </Project>
