@@ -1,6 +1,7 @@
 <Project Sdk="Aspire.AppHost.Sdk/13.3.5">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>dfdsdf
 <!-- asdadadşalsdals -->
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
